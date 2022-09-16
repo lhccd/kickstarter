@@ -1,0 +1,33 @@
+{
+  "name": "kickstarter-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.ts", 
+    "dev": "nodemon backend/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhccd/kickstarter.git"
+  },
+  "author": "Lorenz Huo Chen Chung Dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhccd/kickstarter/issues"
+  },
+  "homepage": "https://github.com/lhccd/kickstarter#readme",
+  "dependencies": {
+    "colors.ts": "^1.0.20",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
